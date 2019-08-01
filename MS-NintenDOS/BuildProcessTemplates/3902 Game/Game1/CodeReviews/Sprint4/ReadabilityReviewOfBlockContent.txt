@@ -1,0 +1,21 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 3/08/2019
+Sprint #: 4
+Name of File: BlockContent.cs
+Author of File: Caleb George
+Time Taken: 10 min
+
+Naming: Good
+- Going off of what the variable names make me think before reading the code body, most
+	of them are good. The ones that I'm not immediately sure about are BumpTime and isTicking,
+	so you could consider changing these but it's not absolutely necessary.
+- Similarly, eject is intuitive, but ShiftSpawnPosition is not. Just from the name, I don't
+	really know what it is for.
+
+Explaining what is happening: Good
+- Logical flow makes sense, its easy to see what is happening
+	throughout Eject and ShiftSpawnPosition.
+
+WhiteSpace:
+- I like the use of whitespace between categories of things (between properties
+	and members, members and methods, etc.)

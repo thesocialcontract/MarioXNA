@@ -1,0 +1,1556 @@
+[
+  {
+    "EntityType": "DeathZone",
+    "WorldPosXBlock": -100,
+    "WorldPosYBlock": -4,
+    "BlockLength": 10000
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosX": 220,
+    "WorldPosY": 200
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosX": 420,
+    "WorldPosY": 220
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 60,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosX": 300,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 500,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 500,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 1,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosX": 420,
+    "WorldPosY": 220
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 60,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosX": 300,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 500,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosX": 500,
+    "WorldPosY": 400
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 30,
+    "WorldPosYBlock": 11
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 35,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosXBlock": 40,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 35,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 39,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 50,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 55,
+    "WorldPosYBlock": 11
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 55,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosXBlock": 60,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 65,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 80,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 90,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 91,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 100,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosXBlock": 106,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 130,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 140,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 150,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 154,
+    "WorldPosYBlock": 8
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 169,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosXBlock": 180,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 185,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 190,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 190,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 200,
+    "WorldPosYBlock": 4
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 204,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillSmall",
+    "WorldPosXBlock": 210,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 1
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 4
+  },
+  {
+    "EntityType": "CloudsSmall",
+    "WorldPosXBlock": 225,
+    "WorldPosYBlock": 9
+  },
+  {
+    "EntityType": "HillBig",
+    "WorldPosXBlock": 230,
+    "WorldPosYBlock": 2
+  },
+  {
+    "EntityType": "CloudsBig",
+    "WorldPosXBlock": 235,
+    "WorldPosYBlock": 7
+  },
+  {
+    "EntityType": "Black",
+    "WorldPosXBlock": -27,
+    "WorldPosYBlock": 25
+  },
+
+
+
+
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "HiddenBlock",
+    "WorldPosXBlock": 2,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "OneUpShroom",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Starman",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 10,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 21,
+    "WorldPosYBlock": 10,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 11,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 11,
+    "HasDynamicCollider": true,
+    "Facing": "left"
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 21,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true,
+    "Facing": "Right"
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "HiddenBlock",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 23,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Player",
+    "WorldPosXBlock": 212,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": true
+  },
+
+
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 46,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 50,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 51,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 52,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 52,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 52,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 53,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 54,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 59,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 69,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 71,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 77,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 80,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 81,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "WarpPipe",
+    "WorldPosXBlock": 88,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "WarpTo": 1
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 108,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 109,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 110,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 111,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 112,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 113,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 113,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 114,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 115,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 116,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 116,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 117,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 118,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 122,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 123,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 124,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 125,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 125,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 127,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 128,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 131,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 132,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Starman",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 137,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 137,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 141,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 141,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 144,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 145,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 148,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 152,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 155,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 156,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 157,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 156,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 157,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 162,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 163,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 162,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 163,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 163,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 164,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 164,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 165,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 168,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 169,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 169,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 170,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 170,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 170,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 171,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 171,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 171,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 171,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 174,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 174,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 174,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 174,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 175,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 175,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 175,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 176,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 176,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 177,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 182,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 183,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 183,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 184,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 184,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 184,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 185,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 185,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 185,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 185,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 186,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 186,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 186,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 186,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 189,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 189,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 189,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 189,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 190,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 190,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 190,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 191,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 191,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 192,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "WarpPipe",
+    "WorldPosXBlock": 197,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false,
+    "WarpID":  2
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 201,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 202,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 203,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Starman",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 204,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 206,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 207,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 212,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 214,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 215,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 215,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 216,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 216,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 216,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 217,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 217,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 217,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 217,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 218,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 218,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 218,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 218,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 218,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 219,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 220,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 221,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 222,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "Flagpole",
+    "WorldPosX": 7376,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 231,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "SmallCastle",
+    "WorldPosXBlock": 235,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "WinZone",
+    "WorldPosXBlock": 237,
+    "WorldPosYBlock": 1,
+    "BlockLength": 6
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": -10,
+    "WorldPosYBlock": 0,
+    "BlockLength": 36
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 29,
+    "WorldPosYBlock": 0,
+    "BlockLength": 69
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 100,
+    "WorldPosYBlock": 0,
+    "BlockLength": 15
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 118,
+    "WorldPosYBlock": 0,
+    "BlockLength": 69
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 189,
+    "WorldPosYBlock": 0,
+    "BlockLength": 55
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 244,
+    "WorldPosYBlock": 0,
+    "BlockLength": 25
+  },
+
+  {
+    "EntityType": "WarpPipe",
+    "WorldPosXBlock": -6,
+    "WorldPosYBlock": 2,
+    "WarpTo": 2
+  },
+  {
+    "EntityType": "WarpPipe",
+    "WorldPosXBlock": -26,
+    "WorldPosYBlock": 2,
+    "WarpID": 1
+  },
+  {
+    "EntityType": "Wall",
+    "WorldPosXBlock": -27,
+    "WorldPosYBlock": -5,
+    "BlockLength": 1,
+    "BlockHeight": 30
+  },
+  {
+    "EntityType": "CaveFloor",
+    "WorldPosXBlock": -26,
+    "WorldPosYBlock": 0,
+    "BlockLength": 23
+  },
+  {
+    "EntityType": "Coin",
+    "WorldPosXBlock": -24,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Wall",
+    "WorldPosXBlock": -3,
+    "WorldPosYBlock": 5,
+    "BlockLength": 1,
+    "BlockHeight": 30
+  }
+]

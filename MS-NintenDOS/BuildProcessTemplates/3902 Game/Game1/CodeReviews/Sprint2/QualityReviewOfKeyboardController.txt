@@ -1,0 +1,25 @@
+Author of Review: Leo Steinkerchner
+Date of Review: 2/11/2019
+Sprint #: 2
+Name of File: KeyboardController.cs
+Author of File: Johnny Albaugh
+Time Taken: 10
+
+Cohesion: Sequential (Good/Great)
+    All parts of the class are directly related to handling keyboard input and are all
+        related sequentially in that process of reading in presses, checking against
+        previous presses, and handling those presses. To increase cohesion further,
+        these three cases could theoretically be extracted further into subclasses,
+        but doing so might be a little overly-complex.
+
+
+Coupling: 9 Classes (Acceptable/Good)
+    KeyboardController relies on a fair number of classes. However, since several
+        of these are not project-level classes (e.g. Keys, Predicate, HashSet) they
+        are likely stable and therefore okay. The only project level dependencies are
+        on IController and ICommand, which both are essential for this class.
+
+Length of methods: {1, 2, 8} (Good/Great)
+    Update() could be trimmed by separating the various steps as described above
+        with cohesion, however, it is still at a decent length as is. The other methods
+        are concise.

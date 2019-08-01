@@ -1,0 +1,388 @@
+{
+  "LeftCrouchingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 40 ]
+  },
+  "LeftCrouchWalkingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 39, 40 ]
+  },
+  "LeftFacingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 46 ]
+  },
+  "LeftWalkingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 42, 43, 44, 45 ]
+  },
+  "LeftDashingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 35, 36, 37, 38 ]
+  },
+  "LeftJumpingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 41 ]
+  },
+  "LeftDashJumpingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 34 ]
+  },
+
+  "RightCrouchingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 53 ]
+  },
+  "RightCrouchWalkingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 53, 54 ]
+  },
+  "RightFacingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 47 ]
+  },
+  "RightWalkingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 48, 49, 50, 51 ]
+  },
+  "RightDashingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 55, 56, 57, 58 ]
+  },
+  "RightJumpingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 52 ]
+  },
+  "RightDashJumpingHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 59 ]
+  },
+  "LeftWinningHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 61 ]
+  },
+  "RightWinningHunter": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 32 ]
+  },
+  "LeftCrouchingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 9 ]
+  },
+  "LeftCrouchWalkingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 8, 9 ]
+  },
+  "LeftFacingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 15 ]
+  },
+  "LeftWalkingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 11, 12, 13, 14 ]
+  },
+  "LeftDashingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4, 5, 6, 7 ]
+  },
+  "LeftJumpingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 10 ]
+  },
+  "LeftDashJumpingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 3 ]
+  },
+  "LeftGroundPoundingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 1 ]
+  },
+  "LeftWinningViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 31 ]
+  },
+  "RightCrouchingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 22 ]
+  },
+  "RightCrouchWalkingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 22, 23 ]
+  },
+  "RightFacingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 16 ]
+  },
+  "RightWalkingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 17, 18, 19, 20 ]
+  },
+  "RightDashingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 24, 25, 26, 27 ]
+  },
+  "RightJumpingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 21 ]
+  },
+  "RightDashJumpingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 28 ]
+  },
+  "RightGroundPoundingViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 30 ]
+  },
+  "RightWinningViking": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "LeftFacingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 101 ]
+  },
+  "LeftWalkingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 98, 99, 100 ]
+  },
+  "LeftJumpingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 97 ]
+  },
+  "LeftWinningSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 107 ]
+  },
+  "RightFacingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 102 ]
+  },
+  "RightWalkingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 103, 104, 105 ]
+  },
+  "RightJumpingSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 106 ]
+  },
+  "RightWinningSmall": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 96 ]
+  },
+  "LeftCrouchingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 68 ]
+  },
+  "LeftCrouchWalkingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 67, 68 ]
+  },
+  "LeftFacingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 75 ]
+  },
+  "LeftWalkingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 70, 71, 72, 73 ]
+  },
+  "LeftDashingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 66 ]
+  },
+  "LeftWinningJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 85 ]
+  },
+  "RightCrouchingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 81 ]
+  },
+  "RightCrouchWalkingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 81, 82 ]
+  },
+  "RightFacingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 75 ]
+  },
+  "RightWalkingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 76, 77, 78, 79 ]
+  },
+  "RightDashingJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 83 ]
+  },
+  "RightWinningJet": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 64 ]
+  },
+  "DeadWario": {
+    "Rows": 4,
+    "Columns": 32,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 86 ]
+  }
+}

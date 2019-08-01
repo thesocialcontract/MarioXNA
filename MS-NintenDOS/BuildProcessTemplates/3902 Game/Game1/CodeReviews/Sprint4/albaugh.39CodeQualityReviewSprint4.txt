@@ -1,0 +1,9 @@
+Review by Johnny J. Albaugh
+Date: March 25th, 2019
+Sprint 4
+ObjectPhysicsEngine.cs
+By Leo Steinkerchner
+Time taken to read was 15 minutes
+This code has good cohesion, for each method does one thing based on a collision side or literally just one thing. The update method has the least cohesion since it adds velocity, as well as friction and gravity, but this is quite small. Coupling is low, for it only needs to see the entity this physics object is controlling. 
+This class is already versatile enough and I can't see what functionality could be added, as it is meant to be a generic object for enemies and so needs only to control movement and such. Nearly any movement needed for an enemy or object can be done, and anything else would be so item specific that it could be build into that specific object itself. One bit of functionality that could arguably be done with other means would be stopping the object so it wouldn't move. This could be done by adding enough forces to cancel themselves out, but it would not be easy with this version. 
+ 

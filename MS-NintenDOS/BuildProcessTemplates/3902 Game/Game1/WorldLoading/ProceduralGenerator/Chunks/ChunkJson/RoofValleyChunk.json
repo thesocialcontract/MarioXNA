@@ -1,0 +1,133 @@
+[
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 11,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 13,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

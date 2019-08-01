@@ -1,0 +1,55 @@
+[
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 11,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 22,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "HiddenBlock",
+    "WorldPosXBlock": 13,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

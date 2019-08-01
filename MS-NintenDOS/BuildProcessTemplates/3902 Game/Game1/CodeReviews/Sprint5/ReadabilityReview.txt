@@ -1,0 +1,18 @@
+﻿Author:		Shamik Raje
+Date:		4.03.2019
+Sprint:		5
+FileName:	World/States/PlayingWorldState.cs
+FileAuthor:	Caleb George
+ReviewTime:	15
+
+I do have a few concerns with readability. I think that you should add the 
+curly braces to the for each loops. It makes it harder to tell when the loop
+starts and when it stops without them. Also the line directly superceding those
+for each loops is right next to the indented line making it rather confusing.
+
+Other than that it looks pretty cohesive. The world state only controls what the
+world state needs to control, except for the game ending. When Mario dies currently
+the PlayingWorldState (for lack of a better term) "has its roots" pretty deep in terms
+of the control of the level resetting. Maybe a better way to go about it would be to 
+have a command that controls all of the level resetting and offload that logic
+to the command.

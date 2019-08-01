@@ -1,0 +1,11 @@
+Author: Johnny J. Albaugh
+Date: February 25th, 2019
+Sprint Number: 3
+CS File Being Reviewed: CollisionDetector.cs
+Author of CS File: Leo Steinkernchner
+
+Code Quality
+The coupling for this class is good, for it only has to see the types of colliders and the types of collision handlers. While many of the methods require multiple lines of code, the actual activity of the whole class if very singular. Essentially, it is this: Check for a collision, and if there is, figure out what type and call the appropriate handler. The cohesion is good because each method only does one thing, though it usually requires some if-else logic to pick which one thing it is. The use of colliders generalizes what this class does so that other classes focus on what actually happens when a type of collision occurs. Overall, the code quality looks good. 
+
+Hypothetical Change
+The class as designed works well to look at collisions and figure out what type they are. A possible change in the future might include adding a type of collision that differs from the types it was designed for, for example the spring. However, most of the class would not have to change. All that would be needed to be added would be a new boolean in the GetCollisionHandler method, and another line of if-else logic there. 

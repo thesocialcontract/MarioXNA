@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: February 6th, 2019
+Sprint 2
+QuestionBlockState.cs
+By Leo Steinkerchner
+Time taken to read was 3 minutes
+Code is easy to read and follow to see the logic. No problems reading it or seeing what it is doing. 

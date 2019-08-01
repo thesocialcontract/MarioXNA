@@ -1,0 +1,50 @@
+[
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

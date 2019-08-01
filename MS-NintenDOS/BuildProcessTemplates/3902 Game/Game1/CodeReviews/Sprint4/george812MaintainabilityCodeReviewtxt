@@ -1,0 +1,24 @@
+﻿Author:		Caleb George
+Date:		3.25.2019
+Sprint:		3
+FileName:	Entities/Items/Fireball.cs
+FileAuthor:	Leo Steinkerchner
+ReviewTime:	15
+
+For the most part, pretty straightforward.
+
+Fireball might be more maintainable if coded as an entirely new entity type such as 
+a Particle type instead of an Item type.  That said, unless we were planning on adding
+features like guns or other projectile shooters, it wouldn't be helpful to code it
+like that.
+
+The Physics engine should be an IPhysicsEngine type.  Since we only have one physics engine
+it doesn't matter in the short term, but if we ever want to change how the physics engine
+works under the hood, or prototype a different one (like what we did earlier this sprint)
+then it would be more difficult to change all of the concrete implmentations like what we
+have her.
+
+I think it might be better to make the explosion timer based on a delta time value instead of a 
+per frame value.  The way the explosion timer is written will speed up/slow down with frame
+rates, which will vary as hardware inevitably changes.  Though, not as big a deal anymore, as most
+computers will run what we have at 60fps.

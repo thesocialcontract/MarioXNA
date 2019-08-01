@@ -1,0 +1,30 @@
+[
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 0,
+    "BlockLength": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 0,
+    "BlockLength": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 23,
+    "WorldPosYBlock": 0,
+    "BlockLength": 1,
+    "HasDynamicCollider": false
+  }
+]

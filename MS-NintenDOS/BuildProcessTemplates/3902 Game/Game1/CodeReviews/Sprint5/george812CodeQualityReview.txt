@@ -1,0 +1,27 @@
+﻿Author of Review: Caleb George
+Date of Review: 4/8/2019
+Sprint #: 5
+Name of File: TransitionScene.cs
+Author of File: Shammik Raje
+Time Taken: 10 min
+
+Cohesion: Communicational (Decent)
+    All parts of this class are related to managing the behavior of Scenes. The Functions
+    are intuitively named, and sufficiently succinct.  However, the scenes are supposed
+    to be a sort of transitional display.  Seeing as there's only one transition, it might
+    make more sense to make it a game state or to rename a scene as transitional display.
+    Additionally, the MarioLives field is impleneted from IScene, which implies that a scene
+    must have some notion of Mario.
+
+Coupling: (Poor)
+    Transition scene requires intricate knowledge of Game, and the PlayersHud, and the World
+    object.
+
+Length of methods: (Good)
+    Methods are short and to the point.
+
+Hypothetical Change: 
+    If we needed to add more content to the scene, there isn't an easy way to do that.  We'd 
+    have to define more displays in the Hud that the scene uses to draw to the screen, and
+    we'd have to add more fields to pass to that Hud.  It's tightly coupled, and its IScene
+    is concerned with TransitionScene's specific logic.

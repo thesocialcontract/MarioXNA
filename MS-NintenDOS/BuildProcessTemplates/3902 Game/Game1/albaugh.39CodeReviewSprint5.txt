@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: April 3rd, 2019
+Sprint 5
+AudioManager.cs
+By Caleb George
+Time taken to read was 10 minutes
+I would rate this code and easily read. The methods and instance variables are all well-named so that it is pretty clear what they're doing and what they're used for. Using a different method for each sound makes the large part of the code very readable as its clear what it does and all that changes is the name of the method and which sound it plays. The hardest part to read is the 2 parts where sounds are put into a list and then added, but even this isn't difficult to see what it means. 

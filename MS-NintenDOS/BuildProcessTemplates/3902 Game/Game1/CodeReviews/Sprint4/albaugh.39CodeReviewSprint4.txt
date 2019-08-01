@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: March 8th, 2019
+Sprint 4
+ObjectPhysicsEngine.cs
+By Leo Steinkerchner
+Time taken to read was 15 minutes
+This method proved to be very readable, though in places it is technical which can't be helped as a physics engine must do a lot of math to deal with forces properly. It is not hard to see all of the functionality the method has, as variables are well named. The most technical part is the methods for controlling movement based on hitting things, so a four case switch is needed in two places. This part is harder to read than the rest, but still easy to see what it does.  

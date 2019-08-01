@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: April 21st, 2019
+Sprint 6
+ContextSelector.cs
+Caleb George
+Time taken to read was 6 minutes
+This code is slightly hard to read, as many of the variables are given abbreviated names. Still, the name of it makes it pretty clear the purpose of the class and it is still not hard to see what each part of the code is doing. The methods and variables are well placed to make it easy to differentiate between methods, variables, and loops. The use of a struct also makes slightly harder to understand. 

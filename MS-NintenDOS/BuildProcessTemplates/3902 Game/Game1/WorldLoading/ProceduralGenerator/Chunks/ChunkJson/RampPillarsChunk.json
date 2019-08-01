@@ -1,0 +1,182 @@
+[
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 2,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 20,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 22,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

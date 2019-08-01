@@ -1,0 +1,24 @@
+﻿Author:		Shamik Raje
+Date:		4.8.2019
+Sprint:		5
+FileName:	Audio/AudioManager.cs
+FileAuthor:	Caleb George
+ReviewTime:	15
+
+Cohesion: Good
+	All of the parts of this class are related to managing the sound effects and the
+	music. I especially like the fact that the file location of all of the sounds and
+	music are abstracted to the AudioConstants.cs file. It makes things more readable 
+	easier to understand
+
+Coupling: Very Good
+	AudioManager does not rely on anything except for the AudioConstants.cs class, and
+	MedioPlayer. 
+
+Hypothetical Change:
+	I think it would be beneficial to separate the sound effects and the music.
+	By doing so the classes would be more cohesesive and easier to understand. The
+	current AudioManager class is rather lenghthy. Even though all of the methods are
+	"one liners", separating the music from the sound efects into say SFXManager and
+	BGMManager would be good in the long run if we decide to add more music and SFX.
+	THis shouldn't be too difficult of a change either.

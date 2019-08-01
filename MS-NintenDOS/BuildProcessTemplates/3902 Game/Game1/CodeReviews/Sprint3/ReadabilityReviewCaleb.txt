@@ -1,0 +1,35 @@
+﻿Author:		Caleb George
+Date:		2.20.2019
+Sprint:		3
+FileName:	Entities/CollisionDetector.cs
+FileAuthor:	Leo Steinkerchner
+ReviewTime:	10
+
+The code is relatively straightforward.  I can follow it easily.  This is
+a controversial opinion, but I think that when writing one line statements
+in an if block, it makes it much more readable to remove the braces, ala
+
+	if (cond)
+		thing
+	else
+		otherthing
+
+The argument for leaving them is to make it look consistent and to prevent
+programmers from forgetting to add braces if they need to add a second
+statment to the block.  I think that braceless blocks are way easier
+to read, and if you're adding a thing, it's formatted so it's hard to
+forget that you need to add braces.
+
+SetColliderList() would look cleaner with the one line if blocks.
+
+Another controversial opinion: Comments for logical blocks of code are
+a helpful table of contents.  It's much easier to logically separate
+what part of the code is doing what with a one line comment that
+describes what a complicated section is trying to do.  Update() could
+benefit from some one line summaries at lines 44 and 66.  Alternatively
+the operations could be stuffed into functions so the functions serve
+as the comments.  (e.g.the top section could be "HandleDynamicStationaryCollisions(args)")
+
+InitializeHandlerList() is extremely clean.
+
+DeterminCollisionSide() could be cleaner with the oneline if else blocks.

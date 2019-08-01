@@ -1,0 +1,55 @@
+[
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 13,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 8
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 0,
+    "BlockLength": 2
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 13,
+    "WorldPosYBlock": 0,
+    "BlockLength": 2
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 0,
+    "BlockLength": 7
+  }
+]

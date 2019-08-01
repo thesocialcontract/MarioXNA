@@ -1,0 +1,20 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 4/21/2019
+Sprint #: 6
+Name of File: WorldGenerator.cs
+Author of File: Caleb George
+Time Taken: 15 min
+
+Naming: Great
+- By itself, its not immediately obvious what "chunks" is. I would recommend adding a header that says something
+	like "Generates worlds using pre-defined 'chunks'", or making this name more descriptive.
+- Methods are all well-named and clear.
+- Most instance variables are well-named and make it obvious what they're for.
+
+Explaining what is happening: Great
+- I would extract player creation to an AddPlayer method, to make it match the rest of the LoadLevel() steps.
+- The logical flow of the methods is great, and easy to follow.
+
+WhiteSpace:
+- Good use of whitespace between sections.
+- I would add a separator between the chunks definition and the following methods.

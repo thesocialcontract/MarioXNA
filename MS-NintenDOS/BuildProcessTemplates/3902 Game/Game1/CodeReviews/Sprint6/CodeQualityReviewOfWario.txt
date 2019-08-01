@@ -1,0 +1,31 @@
+﻿Author: Shamik Raje
+Date: 4/21/19
+Sprint: 6
+Name of File: Entities/Wario/Wario.cs
+Author of File: Johnny Albaugh
+Time Taken: 15
+
+Cohesion: OK
+	This class handles everything related to wario and only wario
+	however there are things that coould be offloaded to other
+	classes/place that would make the code more cohesive. For
+	example, the physics constants could go in their own physics
+	constants static class. Also the calculate movement function
+	could be strictly in the physics class.
+
+Coupling: Good
+	Everything that Wario is coupled to are things that wario needs
+	except for the fireball generator. That should be something that
+	is exclusive to Mario and not Wario. Also there are a few proper-
+	ties that can be private that aren't such as MaxRunSpeed.
+
+Length of Methods: Good
+	The longest method is calculate movement which, even if it were
+	put in the physics class itself, the method would be just as long
+
+Hypothetical Change:
+	I think it would be a good idea if we put more stuff in the Player
+	abstract class. If we did this it would reduce the clutter of the
+	class and make both Wario and Mario more readable and cohesive. we
+	can leave things like the power-ups and such to the IMario interface
+	and the states.

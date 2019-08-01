@@ -1,0 +1,19 @@
+﻿Author:		Shamik Raje
+Date:		4.17.2019
+Sprint:		6
+FileName:	Input/CheatHandler.cs
+FileAuthor:	Leo Steinkerchner
+ReviewTime:	15
+
+I think this file is very readable. Bits of code are encapsulated into 
+appropriate methods making things very easy to understand. One thing I
+am confused about is the fact that register cheats is a private method.
+Personally I think that it should be public and other classes can add or
+subtract cheats however if you did it this way it would increase coupling.
+Also I am unsure as to why the cheats are an array of strings rather than
+a string itself or an array of characters or even an array of keys. I would
+think that an Array of keys would be much easierto check against, but I
+don't know.
+
+Other than those changes I think that what you have is very good. The 
+variables are cohesive and the methods are readable. Good work.

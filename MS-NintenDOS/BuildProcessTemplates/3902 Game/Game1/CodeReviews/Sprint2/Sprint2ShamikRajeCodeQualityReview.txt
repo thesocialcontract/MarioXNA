@@ -1,0 +1,20 @@
+﻿Author: Shamik Raje
+Date of Code Review: 2/11/19
+Sprint 2
+Name of .cs file: RightFacingSmallMarioSprite.cs
+Author of .cs file: Calleb George
+
+I do think that the Mario state files (this one included) are reliant
+on the SpriteBatch type when there is no need for them to be. Since 
+the purpose of these file are to handle the state of mario and not the
+drawing of mario. Especially with the current implementation, the
+SpriteBatch is coupled with too many of the other files.
+
+Hypothetical change: 
+I think it would be a good idea for the staionary sprite class to handle
+not just the animation but rather the drawing as well in the sense that
+the Sprite classes are the only ones to know about the SpriteBatch. This
+may, however, not be a good idea as then every SINGLE sprite would be 
+linked to the TextureFactory singleton. However, it being connected to the
+state would mean that the State files would handle things that are a bit
+outside its scope.

@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: April 21st, 2019
+Sprint 6
+ContextSelector.cs
+Caleb George
+Time taken to read was 6 minutes
+Overall this code has good quality. The cohesion is good because each method in the class is doing one thing, whether it is assigning weights, choosing a random context, or just creating the list. The coupling is pretty low, since it only has to see the 3 contexts and the Activator that creates the context. The methods are longer than usual, but part of this length makes the methods easier to read. Giving more contexts to choose from randomly would only require adding it to the list, which is only adding a line of code. The most functionality that could be added to this class would be changing the ways in which you weight each context and how you pick the next one at the end. This would require a change in the struct and the ChooseRandom method. 

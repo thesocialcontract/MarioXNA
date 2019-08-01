@@ -1,0 +1,25 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 4/09/2019
+Sprint #: 5
+Name of File: WarpPipe.cs
+Author of File: Shamik Raje
+Time Taken: 15 min
+
+Cohesion: Sequential (Great)
+    All parts of this class are related to the existence of a warp pipe. The Warp() method
+		has several steps that could theoretically be reduced by extracting the "find destination"
+		steps from the "warp" steps.
+
+Coupling: 12 Classes (Moderate)
+    The literal number of classes is high, but some of these are the givens that are required for all
+		of our entities (IGameEntity, ISprite, SpriteFactory, etc.). The only thing that is
+		un-necessarily highly coupled is the mention of World.Instance.Player.WorldLocation, which
+		relies on the implementation details of both World and Player.
+
+Length of methods: <= 10 (Great)
+    Both methods are short and to the point. As mentioned above, you could extract destination finding
+		to further streamline Warp().
+
+Hypothetical Change: If we needed to allow warping to non-WarpPipes, we would most likely look at creating
+	an IWarpable interface, at which point the only thing we would need to change is the reference
+	"if entity is WarpPipe" to "if entity is IWarpable", which is a small, easy change.

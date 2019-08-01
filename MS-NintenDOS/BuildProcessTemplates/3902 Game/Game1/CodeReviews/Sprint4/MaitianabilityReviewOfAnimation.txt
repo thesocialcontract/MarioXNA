@@ -1,0 +1,17 @@
+﻿Author:		Shamik Raje
+Date:		3.25.2019
+Sprint:		3
+FileName:	Rendering/Animation.cs
+FileAuthor:	Caleb George
+ReviewTime:	15
+
+Pretty Straight forward for the most part
+
+Animation works for mainly sprites that need to move but don't have
+a colider associated with them. It may be more cohesive if it worked 
+for animations for collidable objects rather than just non collidables
+
+I can't really think of any significant changes that would improve its
+cohesion other than the one above. Considering the fact that all of the
+animation code relates to sprites and drawing.
+

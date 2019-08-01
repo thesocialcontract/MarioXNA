@@ -1,0 +1,17 @@
+﻿The burndown chart was not always updated during development. However towards
+the end of the sprint we began to utilize the board quite a bit more to track
+bugs. The resulting graph was a slow rising slope with sharp spikes upward
+before the the sprint deadlines. Our tasks are done but a few are left marked as
+TODO or approved.
+
+What we saw was a steep climb at the beginning when we set tasks, a small
+plateau where nobody edited their work, a sharp decline before the first 
+deadline, a larger plateau during spring break, and then asharp decline before
+the second deadline.
+
+Supposing that we correctly marked the tasks, we would see a gradual burndown
+until the end of the sprint. Ideally, the chart should align with a constant
+linear slope the entire sprint, implying a small constant ammount of work each 
+day.  Steps we should take are to spread our work out so we don't do everything
+in a small period of time (especially if that time is near the due date of the
+sprint).

@@ -1,0 +1,30 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 3/25/2019
+Sprint #: 4
+Name of File: BlockContent.cs
+Author of File: Caleb George
+Time Taken: 15 min
+
+Cohesion: Communicational (Good)
+    All parts of this class are related to managing the behavior of items contained in
+		blocks. That said, it handles a decent amount of steps. The items are spawned,
+		moved, and counted all within this class, where some of that functionality
+		could be extracted.
+
+Coupling: 13 Classes (Poor)
+    BlockContent relies a lot on the items it can spawn, although it treats each type almost the exact
+		same. Consider pushing the differentiation into the ItemFactory, since that class
+		will be highly coupled no matter what. Elsewhere, BlockContent's coupling is appropriate.
+
+Length of methods: <= (Moderate)
+    Most of the code is fine, but Eject is fairly extensive (which makes sense as it is 
+		more or less the entire purpose of the class). The above suggestion about deflecting the different
+		item types would greatly shorten this method, or you could extract the switch-case into a
+		SpawnItem method.
+
+Hypothetical Change: If we needed to allow items to spawn downwards (such as if we implemented a Mario ground-pound)
+	the only part that would need changed is the ShiftSpawnPosition method. We could add a MoveUp? boolean that can
+	differentiate between objects that should move up on spawn and ones that should move down on spawn. This would have
+	to be included somewhere upstream... e.g. the CollisionHandler could include a case that groud pounds call
+	block.GroundPound instead of just block.Bump, or by passing the collision side to block.bump, but ultimately,
+	there are several steps that would have to go into this change.

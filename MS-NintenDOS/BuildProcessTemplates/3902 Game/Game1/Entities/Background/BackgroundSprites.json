@@ -1,0 +1,50 @@
+{
+  "CloudsBig": {
+    "Rows": 1,
+    "Columns": 2,
+    "Scale": 2,
+    "TotalFrames": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "CloudsSmall": {
+    "Rows": 1,
+    "Columns": 2,
+    "Scale": 2,
+    "TotalFrames": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 1 ]
+  },
+  "HillBig": {
+    "Rows": 1,
+    "Columns": 2,
+    "Scale": 2,
+    "TotalFrames": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "HillSmall": {
+    "Rows": 1,
+    "Columns": 2,
+    "Scale": 2,
+    "TotalFrames": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 1 ]
+  },
+  "SmallCastle": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "TotalFrames": 1,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Black": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 50,
+    "TotalFrames": 1,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Coin",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 11,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true,
+    "Facing": "Left"
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

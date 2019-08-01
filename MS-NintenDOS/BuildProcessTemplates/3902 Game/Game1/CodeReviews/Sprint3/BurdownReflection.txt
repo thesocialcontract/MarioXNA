@@ -1,0 +1,19 @@
+﻿The burdown chart wasn't always updated during development.  Only 4/7 Items 
+were marked as Done or InProgress throughout the sprint.  Halfway through the
+sprint, items were changed from approved to in progress, resulting in a spike
+instead of a consistent downward slope.  Our tasks are done, but because a few
+are left marked as TODO or Approved, we still have a small plateau on the
+burndown chart.
+
+What we saw was a steep climb at the beginning when we set tasks, a small
+descent from a minor feature, a pleateau that no one worked during, a small
+ascent when we properly marked some tasks, and a steep descent near the end
+of the sprint.  This says we worked on the sprint a bit, but did the bulk of the
+work at the end.
+
+Supposing that we correctly marked the tasks, we would see a gradual burndown
+until the end of the sprint, where it would drop steeply.  Ideally, the chart
+should align with a constant linear slope the entire sprint, implying a small
+constant ammount of work each day.  Steps we should take are to spread our work
+out so we don't do everything in a small period of time (especially if that time
+is near the due date of the sprint).

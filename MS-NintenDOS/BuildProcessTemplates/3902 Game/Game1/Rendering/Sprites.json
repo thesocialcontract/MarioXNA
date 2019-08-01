@@ -1,0 +1,220 @@
+{
+  "OneUpMushroom": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "AllMario": {
+    "Rows": 3,
+    "Columns": 14,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "BaseBlock": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "CaveBaseBlock": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "BrickBlock": {
+    "Rows": 1,
+    "Columns": 5,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "QuestionBlock": {
+    "Rows": 1,
+    "Columns": 6,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1, 2 ]
+  },
+  "Coin": {
+    "Rows": 1,
+    "Columns": 8,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1, 2, 3 ]
+  },
+  "DownPipe": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "FireFlower": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1, 2, 3 ]
+  },
+  "Goomba": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1 ]
+  },
+  "StompedGoomba": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 2 ]
+  },
+  "FlippedGoomba": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 3 ]
+  },
+  "FlippedKoopa": {
+    "Rows": 1,
+    "Columns": 8,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 6 ]
+  },
+  "LeftWalkingKoopa": {
+    "Rows": 1,
+    "Columns": 8,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 2, 3 ]
+  },
+  "RightWalkingKoopa": {
+    "Rows": 1,
+    "Columns": 8,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4, 5 ]
+  },
+  "KoopaShell": {
+    "Rows": 1,
+    "Columns": 8,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "PowerUpMushroom": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "RampBlock": {
+    "Rows": 1,
+    "Columns": 2,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Starman": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1, 2, 3 ]
+  },
+  "DeadMario": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "UsedBlock": {
+    "Rows": 1,
+    "Columns": 6,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4 ]
+  },
+  "Flagpole": {
+    "Rows": 1,
+    "Columns": 5,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4 ]
+  },
+  "FlagpoleLowering": {
+    "Rows": 1,
+    "Columns": 5,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4, 3, 2, 1, 0 ]
+  },
+  "FlagpoleBottom": {
+    "Rows": 1,
+    "Columns": 5,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Pole": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Banner": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Fireball": {
+    "Rows": 1,
+    "Columns": 7,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0, 1, 2, 3 ]
+  },
+  "FireBurst": {
+    "Rows": 1,
+    "Columns": 7,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 4, 5, 6 ]
+  },
+  "BrickParticles": {
+    "Rows": 1,
+    "Columns": 4,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "CaveBrick": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 2,
+    "FrameDelay": 0,
+    "FramesToUse": [ 0 ]
+  },
+  "Triangle": {
+    "Rows": 1,
+    "Columns": 1,
+    "Scale": 0.0625,
+    "FrameDelay": 0,
+    "FramesToUse":  [ 0 ]
+  }
+
+}

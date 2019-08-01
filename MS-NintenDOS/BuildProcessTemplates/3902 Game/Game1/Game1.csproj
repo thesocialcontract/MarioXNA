@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2ACD399-A44E-443C-AA58-8BD88396F94C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game1</RootNamespace>
+    <AssemblyName>Game1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="CodeReviews\Sprint4\george812MaintainabilityCodeReviewtxt" />
+    <Compile Include="Audio\AudioConstants.cs" />
+    <Compile Include="Audio\AudioManager.cs" />
+    <Compile Include="Entities\ColliderCategories.cs" />
+    <Compile Include="Entities\Mario\InvisibleWinMario.cs" />
+    <Compile Include="Entities\Wario\InvisibleWinWario.cs" />
+    <Compile Include="Entities\Wario\StarWario.cs" />
+    <Compile Include="Entities\Wario\States\RightGroundPoundingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftCrouchWalkingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftDashingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftDashJumpingVikingWarioState .cs" />
+    <Compile Include="Entities\Wario\States\LeftGroundPoundingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightDashingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightDashJumpingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightDashJumpingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftDashJumpingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightDashingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftDashingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightCrouchWalkingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightCrouchWalkingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftCrouchWalkingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\Wario.cs" />
+    <Compile Include="Entities\Wario\States\DeadWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftCrouchingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftCrouchingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftFacingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftJumpingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWalkingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWinningHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWinningVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWinningSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightCrouchingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightCrouchingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightFacingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightFacingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftFacingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftFacingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftJumpingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftJumpingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWalkingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\LeftWalkingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightFacingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightJumpingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightJumpingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightJumpingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWalkingVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWalkingHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWalkingSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWinningHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWinningVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\RightWinningSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftCrouchingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftCrouchingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftCrouchingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftFacingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftFacingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftFacingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftFacingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftFacingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftJumpingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftJumpingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftJumpingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftJumpingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftJumpingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftWalkingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftWalkingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftWalkingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftWalkingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\LeftWalkingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightCrouchingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightCrouchingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightCrouchingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightFacingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightFacingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightFacingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightFacingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightFacingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightJumpingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightJumpingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightJumpingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightJumpingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightJumpingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightWalkingHunterToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightWalkingHunterToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightWalkingVikingToSmallWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightWalkingSmallToHunterWarioState.cs" />
+    <Compile Include="Entities\Wario\States\Transitions\RightWalkingSmallToVikingWarioState.cs" />
+    <Compile Include="Entities\Wario\States\WarioState.cs" />
+    <Compile Include="Entities\Wario\WarioSpriteFactory.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftCrouchingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftCrouchingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftCrouchingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftFacingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftFacingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftFacingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftFacingSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftFacingSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftJumpingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftJumpingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftJumpingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftJumpingSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftJumpingSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftRunningBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftRunningBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftRunningFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftRunningSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\LeftRunningSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightCrouchingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightCrouchingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightCrouchingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightFacingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightFacingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightFacingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightFacingSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightFacingSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightJumpingBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightJumpingBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightJumpingFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightJumpingSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightJumpingSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightRunningBigToFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightRunningBigToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightRunningFireToSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightRunningSmallToBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\RightRunningSmallToFireMarioState.cs" />
+    <Compile Include="Entities\Pipes\WarpPipe.cs" />
+    <Compile Include="Input\CheatHandler.cs" />
+    <Compile Include="Input\Commands\CheatEntryCommand.cs" />
+    <Compile Include="Input\Commands\ExtraLifeCheatCommand.cs" />
+    <Compile Include="Input\Commands\LoadJSONWorldCommand.cs" />
+    <Compile Include="Input\Commands\LoadProcedurallyGeneratedWorldCommand.cs" />
+    <Compile Include="Input\Commands\MenuGoBackCommand.cs" />
+    <Compile Include="Input\Commands\MenuMoveDownCommand.cs" />
+    <Compile Include="Input\Commands\MenuMoveUpCommand.cs" />
+    <Compile Include="Input\Commands\MenuSelectCommand.cs" />
+    <Compile Include="Input\Commands\SetBigCheatCommand.cs" />
+    <Compile Include="Input\Commands\SetFireCheatCommand.cs" />
+    <Compile Include="Input\Commands\StarCheatCommand.cs" />
+    <Compile Include="Input\Commands\SwitchToCharacterSelectCommand.cs" />
+    <Compile Include="Input\Commands\SwitchToLevelSelectMarioCommand.cs" />
+    <Compile Include="Input\Commands\SwitchToLevelSelectWarioCommand.cs" />
+    <Compile Include="Input\Commands\SwitchToMainMenuCommand.cs" />
+    <Compile Include="Input\Commands\TakeDamageCheatCommand.cs" />
+    <Compile Include="Input\Commands\WinCheatCommand.cs" />
+    <Compile Include="Rendering\UI\Button.cs" />
+    <Compile Include="RisingText.cs" />
+    <Compile Include="IRisingText.cs" />
+    <Compile Include="RisingTextManager.cs" />
+    <Compile Include="Entities\AbstractGameEntity.cs" />
+    <Compile Include="Entities\Background\BackgroundSpriteFactory.cs" />
+    <Compile Include="Entities\Blocks\AbstractBlock.cs" />
+    <Compile Include="Entities\Blocks\BaseBlock.cs" />
+    <Compile Include="Entities\Blocks\BlockAudioManager.cs" />
+    <Compile Include="Entities\Blocks\BlockContent.cs" />
+    <Compile Include="Entities\Blocks\BlockFactory.cs" />
+    <Compile Include="Entities\Blocks\BrickBlock.cs" />
+    <Compile Include="Entities\Blocks\BrickParticle.cs" />
+    <Compile Include="Entities\Blocks\HiddenBlock.cs" />
+    <Compile Include="Entities\Blocks\IBlock.cs" />
+    <Compile Include="Entities\Blocks\IContainableBlock.cs" />
+    <Compile Include="Entities\Blocks\QuestionBlock.cs" />
+    <Compile Include="Entities\Blocks\States\BumpableBlockState.cs" />
+    <Compile Include="Entities\Blocks\States\BumpedBlockState.cs" />
+    <Compile Include="Entities\Blocks\RampBlock.cs" />
+    <Compile Include="Entities\Blocks\States\BreakingBlockState.cs" />
+    <Compile Include="Entities\Blocks\States\BumpingBlockState.cs" />
+    <Compile Include="Entities\Blocks\UsedBlock.cs" />
+    <Compile Include="Entities\Enemies\CollisionHandlers\EnemyTriggerZoneCollisionHandler.cs" />
+    <Compile Include="Entities\Enemies\EnemyAudioManager.cs" />
+    <Compile Include="Entities\Enemies\GoombaFlipped.cs" />
+    <Compile Include="Entities\Enemies\GoombaStomped.cs" />
+    <Compile Include="Entities\Enemies\KoopaFlipped.cs" />
+    <Compile Include="Entities\Enemies\KoopaShell.cs" />
+    <Compile Include="Entities\GenericObjectPhysicsEngine2.cs" />
+    <Compile Include="Entities\Enemies\CollisionHandlers\EnemyEnemyCollisionHandler.cs" />
+    <Compile Include="Entities\Enemies\CollisionHandlers\EnemyTerrainCollisionHandler.cs" />
+    <Compile Include="Entities\Items\BlockCoin.cs" />
+    <Compile Include="Entities\Items\CollisionHandlers\ItemTriggerZoneCollisionHandler.cs" />
+    <Compile Include="Entities\Items\CollisionHandlers\ItemItemCollisionHandler.cs" />
+    <Compile Include="Entities\Items\CollisionHandlers\ItemBlockCollisionHandler.cs" />
+    <Compile Include="Entities\Items\CollisionHandlers\ItemEnemyCollisionHandler.cs" />
+    <Compile Include="Entities\Items\CollisionHandlers\ItemTerrainCollisionHandler.cs" />
+    <Compile Include="Entities\Items\Fireball.cs" />
+    <Compile Include="Entities\Items\FireballFactory.cs" />
+    <Compile Include="Entities\Items\ItemAudioManager.cs" />
+    <Compile Include="Entities\Items\ItemFactory.cs" />
+    <Compile Include="Entities\Items\SpawningItem.cs" />
+    <Compile Include="Entities\Mario\States\Transitions\HitStunMario.cs" />
+    <Compile Include="Rendering\UI\HudTimer.cs" />
+    <Compile Include="Rendering\UI\HudCoins.cs" />
+    <Compile Include="Rendering\UI\HudWorld.cs" />
+    <Compile Include="Rendering\UI\HudLives.cs" />
+    <Compile Include="Rendering\UI\HudScore.cs" />
+    <Compile Include="Rendering\UI\GameHud.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioTerrainCollisionHandler.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioTriggerZoneCollisionHandler.cs" />
+    <Compile Include="Rendering\UI\IHudMember.cs" />
+    <Compile Include="Entities\Mario\MarioAudioManager.cs" />
+    <Compile Include="Entities\Mario\States\LeftWinningBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftWinningFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftWinningSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightWinningBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightWinningFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightWinningSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\WinMario.cs" />
+    <Compile Include="Entities\ObjectPhysicsEngine.cs" />
+    <Compile Include="Entities\Terrain\AnimatedFlagpole.cs" />
+    <Compile Include="Entities\Terrain\Flagpole.cs" />
+    <Compile Include="Entities\Terrain\FlagpoleBottom.cs" />
+    <Compile Include="Entities\Terrain\Floor.cs" />
+    <Compile Include="Entities\ColliderRegistrar.cs" />
+    <Compile Include="Entities\Side.cs" />
+    <Compile Include="Entities\Collider.cs" />
+    <Compile Include="Entities\CollisionDetector.cs" />
+    <Compile Include="Entities\Enemies\CollisionHandlers\EnemyBlockCollisionHandler.cs" />
+    <Compile Include="Entities\Enemies\Enemy.cs" />
+    <Compile Include="Entities\Enemies\Goomba.cs" />
+    <Compile Include="Entities\Enemies\IEnemy.cs" />
+    <Compile Include="Entities\Enemies\Koopa.cs" />
+    <Compile Include="Entities\EntityFactory.cs" />
+    <Compile Include="Entities\BackgroundGameEntity.cs" />
+    <Compile Include="Entities\ICollider.cs" />
+    <Compile Include="Entities\IPhysicsEngine.cs" />
+    <Compile Include="Entities\Items\Item.cs" />
+    <Compile Include="Entities\Items\Coin.cs" />
+    <Compile Include="Entities\Items\FireFlower.cs" />
+    <Compile Include="Entities\Items\Mushroom.cs" />
+    <Compile Include="Entities\Items\OneUpMushroom.cs" />
+    <Compile Include="Entities\Items\PowerUpMushroom.cs" />
+    <Compile Include="Entities\Items\Starman.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioPipeCollisionHandler.cs" />
+    <Compile Include="Entities\Pipes\Pipe.cs" />
+    <Compile Include="Entities\Mario\MarioSpriteFactory.cs" />
+    <Compile Include="Entities\Mario\IMario.cs" />
+    <Compile Include="Entities\Mario\Player.cs" />
+    <Compile Include="Entities\Mario\StarMario.cs" />
+    <Compile Include="Entities\Mario\States\MarioState.cs" />
+    <Compile Include="Entities\Pipes\StaticDownPipe.cs" />
+    <Compile Include="Entities\Terrain\Wall.cs" />
+    <Compile Include="Entities\TriggerZone\DeathZone.cs" />
+    <Compile Include="Entities\TriggerZone\WinZone.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GlobalGameTime.cs" />
+    <Compile Include="IDrawable.cs" />
+    <Compile Include="Entities\IGameEntity.cs" />
+    <Compile Include="Input\Commands\FireballCommand.cs" />
+    <Compile Include="Input\Commands\JumpButtonReleaseCommand.cs" />
+    <Compile Include="Input\Commands\PauseLevelCommand.cs" />
+    <Compile Include="Input\Commands\RunCommand.cs" />
+    <Compile Include="Input\Commands\StandCommand.cs" />
+    <Compile Include="Input\Commands\StopRunCommand.cs" />
+    <Compile Include="Input\Controllers\GamePadController3.cs" />
+    <Compile Include="IUpdatable.cs" />
+    <Compile Include="IPlayer.cs" />
+    <Compile Include="Entities\Mario\States\RightCrouchingFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightJumpingFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightJumpingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightCrouchingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightRunningFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightRunningSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightRunningBigMarioState.cs" />
+    <Compile Include="Entities\Blocks\States\IBlockState.cs" />
+    <Compile Include="Entities\Mario\States\IMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightFacingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightFacingFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightJumpingSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\RightFacingSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\DeadMarioState.cs" />
+    <Compile Include="Entities\Mario\AbstractMario.cs" />
+    <Compile Include="Entities\Blocks\States\BlockState.cs" />
+    <Compile Include="Entities\ICollisionHandler.cs" />
+    <Compile Include="Input\Controllers\KeyboardController.cs" />
+    <Compile Include="Input\Commands\ICommand.cs" />
+    <Compile Include="Input\Controllers\IController.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioBlockCollisionHandler.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioEnemyCollisionHandler.cs" />
+    <Compile Include="Entities\Mario\CollisionHandlers\MarioItemCollisionHandler.cs" />
+    <Compile Include="Entities\ColliderFactory.cs" />
+    <Compile Include="Rendering\Animation.cs" />
+    <Compile Include="Rendering\CameraController.cs" />
+    <Compile Include="Rendering\AnimatedHudSprite.cs" />
+    <Compile Include="Rendering\IHudSprite.cs" />
+    <Compile Include="Rendering\ISprite.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendering\SpriteFactory.cs" />
+    <Compile Include="Rendering\SpriteRegistrar.cs" />
+    <Compile Include="Rendering\Sprite.cs" />
+    <Compile Include="Rendering\TextureList.cs" />
+    <Compile Include="Input\Commands\GoDownCommand.cs" />
+    <Compile Include="Input\Commands\GoUpCommand.cs" />
+    <Compile Include="Input\Commands\MoveLeftCommand.cs" />
+    <Compile Include="Input\Commands\MoveRightCommand.cs" />
+    <Compile Include="Input\Commands\QuitCommand.cs" />
+    <Compile Include="Input\Commands\ResetCommand.cs" />
+    <Compile Include="Entities\Mario\States\LeftFacingSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftRunningSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftJumpingSmallMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftFacingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftRunningBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftJumpingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftCrouchingBigMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftFacingFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftRunningFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftJumpingFireMarioState.cs" />
+    <Compile Include="Entities\Mario\States\LeftCrouchingFireMarioState.cs" />
+    <Compile Include="Scenes\IScene.cs" />
+    <Compile Include="Scenes\MenuScene.cs" />
+    <Compile Include="Scenes\MenuSceneStates\CharacterSelectSceneState.cs" />
+    <Compile Include="Scenes\MenuSceneStates\IMenuSceneState.cs" />
+    <Compile Include="Scenes\MenuSceneStates\LevelSelectSceneState.cs" />
+    <Compile Include="Scenes\MenuSceneStates\MainMenuSceneState.cs" />
+    <Compile Include="Scenes\MenuSceneStates\MenuSceneState.cs" />
+    <Compile Include="Scenes\SceneManager.cs" />
+    <Compile Include="Scenes\GameOverScene.cs" />
+    <Compile Include="Scenes\TransistionScene.cs" />
+    <Compile Include="Scenes\WorldScene.cs" />
+    <Compile Include="WorldLoading\BlockItemRegistrar.cs" />
+    <Compile Include="WorldLoading\GameEntityRegistrar.cs" />
+    <Compile Include="WorldLoading\IWorld.cs" />
+    <Compile Include="WorldLoading\IWorldGenerator.cs" />
+    <Compile Include="WorldLoading\IWorldLoader.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\Chunks\Chunk.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\Chunks\ChunkFilepaths.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\Chunks\IChunk.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\AbstractGameplayContext.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\ContextSelector.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\HorizontalChallengeContext.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\IGameplayContext.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\RiskRewardContext.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\GameplayContexts\VerticalChallengeContext.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\WorldGenerationHelpers.cs" />
+    <Compile Include="WorldLoading\ProceduralGenerator\WorldGenerator.cs" />
+    <Compile Include="WorldLoading\States\AbstractWorldState.cs" />
+    <Compile Include="WorldLoading\States\IWorldState.cs" />
+    <Compile Include="WorldLoading\States\PausedWorldState.cs" />
+    <Compile Include="WorldLoading\States\PlayingWorldState.cs" />
+    <Compile Include="WorldLoading\WorldAudioManager.cs" />
+    <Compile Include="WorldLoading\WorldHelpers.cs" />
+    <Compile Include="WorldLoading\WorldLoaderJson.cs" />
+    <Compile Include="WorldLoading\World.cs" />
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\FlatHordeChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\FlatEnemiesChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\GapChunkEnemies.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\GapChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\3Path.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PillarGapItemsChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PipeValleyHordeKoopaChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PipeValleyLiteChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PipeValleyHordeChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\RampPillarsItemChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\RampPillarsChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\3PathRiskRewardGap.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\HordePillarGapChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\RoofValleyHordeChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\ThreePathRiskRewardRoofValley.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\RoofValleyEnemiesChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\RoofValleyChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PillarGapChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\Chunks\ChunkJson\PipeValleyChunk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\ProceduralGenerator\LevelEnd.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeReviews\Sprint2\CodeReadabilityReviewOfKeyboardController.txt" />
+    <Content Include="CodeReviews\Sprint2\albaugh.39CodeQualityReviewSprint2.txt" />
+    <Content Include="CodeReviews\Sprint2\albaugh.39CodeReviewSprint2.txt" />
+    <Content Include="CodeReviews\Sprint3\albaugh.39CodeQualityReviewSprint3.txt" />
+    <Content Include="CodeReviews\Sprint3\albaugh.39CodeReviewSprint3.txt" />
+    <Content Include="CodeReviews\Sprint2\QualityReviewOfKeyboardController.txt" />
+    <Content Include="CodeReviews\Sprint2\CodeReadabilityReview1.txt" />
+    <Content Include="CodeReviews\Sprint2\CodeReview1.txt" />
+    <Content Include="CodeReviews\Sprint2\Sprint2ShamikRajeCodeReview1.txt" />
+    <Content Include="CodeReviews\Sprint2\Sprint2ShamikRajeCodeQualityReview.txt" />
+    <Content Include="CodeReviews\Sprint3\BurdownReflection.txt" />
+    <Content Include="CodeReviews\Sprint3\CodeQualityOfCollisionDetector.txt" />
+    <Content Include="CodeReviews\Sprint3\CodeQualityReviewCaleb.txt" />
+    <Content Include="CodeReviews\Sprint3\QualityReviewOfWorld.txt" />
+    <Content Include="CodeReviews\Sprint3\ReadabilityOfMouseController.txt" />
+    <Content Include="CodeReviews\Sprint3\ReadabilityReviewCaleb.txt" />
+    <Content Include="CodeReviews\Sprint4\albaugh.39CodeQualityReviewSprint4.txt" />
+    <Content Include="CodeReviews\Sprint4\albaugh.39CodeReviewSprint4.txt" />
+    <Content Include="CodeReviews\Sprint4\BurndownReflection.txt" />
+    <Content Include="CodeReviews\Sprint4\MaitianabilityReviewOfAnimation.txt" />
+    <Content Include="CodeReviews\Sprint4\ReadabilityReviewOfBlockContent.txt" />
+    <Content Include="CodeReviews\Sprint4\ReadabilityReviewCaleb.txt" />
+    <Content Include="CodeReviews\Sprint4\QualityReviewOfBlockContent.txt" />
+    <Content Include="CodeReviews\Sprint5\albaugh.39CodeReviewSprint5.txt" />
+    <Content Include="CodeReviews\Sprint5\george812CodeQualityReview.txt" />
+    <Content Include="CodeReviews\Sprint5\QualityReviewOfWarpPipe.txt" />
+    <Content Include="CodeReviews\Sprint5\ReadabilityReviewLeo.txt" />
+    <Content Include="CodeReviews\Sprint5\ReadabilityReview.txt" />
+    <Content Include="CodeReviews\Sprint5\george812CodeReviewSprint5.txt" />
+    <Content Include="CodeReviews\Sprint6\CodeQualityReviewOfWario.txt" />
+    <Content Include="CodeReviews\Sprint6\ReadabilityReviewOfCheatHandler.txt" />
+    <Content Include="Content\1UpMushroomSprite.png" />
+    <Content Include="Content\AllMarioSprite.png" />
+    <Content Include="Content\AllWarioSpriteClear.png" />
+    <Content Include="Content\Audio\SFX\Block\sfx_breakblock.wav" />
+    <Content Include="Content\Audio\SFX\Block\sfx_bump.wav" />
+    <Content Include="Content\Audio\SFX\Block\sfx_powerup_appears.wav" />
+    <Content Include="Content\Audio\SFX\Enemy\sfx_kick.wav" />
+    <Content Include="Content\Audio\SFX\Enemy\sfx_stomp.wav" />
+    <Content Include="Content\Audio\SFX\GameState\sfx_pause.wav" />
+    <Content Include="Content\Audio\SFX\Item\sfx_1-up.wav" />
+    <Content Include="Content\Audio\SFX\Item\sfx_coin.wav" />
+    <Content Include="Content\Audio\SFX\Mario\sfx_fireball.wav" />
+    <Content Include="Content\Audio\SFX\Mario\sfx_jumpbig.wav" />
+    <Content Include="Content\Audio\SFX\Mario\sfx_jumpsmall.wav" />
+    <Content Include="Content\Audio\SFX\Mario\sfx_powerup.wav" />
+    <Content Include="Content\Audio\SFX\Wario\sfx_charge.wav" />
+    <Content Include="Content\Audio\SFX\World\sfx_flagpole.wav" />
+    <Content Include="Content\Audio\SFX\World\sfx_pipe.wav" />
+    <Content Include="Content\Audio\SFX\World\sfx_stage_clear.wav" />
+    <Content Include="Content\BaseSprite.png" />
+    <Content Include="Content\BlackSprite.png" />
+    <Content Include="Content\BrickExplodedSprite.png" />
+    <Content Include="Content\BrickSprite.png" />
+    <Content Include="Content\CaveBaseSprite.png" />
+    <Content Include="Content\CaveBrickSprite.png" />
+    <Content Include="Content\CloudSprite.png" />
+    <Content Include="Content\CoinSprite.png" />
+    <Content Include="Content\CoinSprite2.png" />
+    <Content Include="Content\DeadMarioSprite.png" />
+    <Content Include="Content\DownPipeSprite.png" />
+    <Content Include="Content\FireballSprite.png" />
+    <Content Include="Content\FireFlowerSprite.png" />
+    <Content Include="Content\FlagSprite.png" />
+    <Content Include="Content\GoombaSprite.png" />
+    <Content Include="Content\HillSprite.png" />
+    <Content Include="Content\HudCoin.png" />
+    <Content Include="Content\InnerHudCoin.png" />
+    <Content Include="Content\KoopaSprite.png" />
+    <Content Include="Content\MarioLifeSprite.png" />
+    <Content Include="Content\MushroomSprite.png" />
+    <Content Include="Content\QuestionBlockSprite.png" />
+    <Content Include="Content\RampBlockSprite.png" />
+    <Content Include="Content\SmallCastleSprite.png" />
+    <Content Include="Content\StarmanSprite.png" />
+    <Content Include="Content\triangle.png" />
+    <Content Include="Icon.ico" />
+    <Content Include="_README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <Content Include="CodeReviews\Sprint3\ReadabilityReviewOfCollisionDetector.txt" />
+    <Content Include="CodeReviews\Sprint5\BurdownReflection.txt" />
+    <None Include="Content\Audio\Music\mus_gameover.ogg" />
+    <None Include="Content\Audio\Music\mus_mariodie.ogg" />
+    <None Include="Content\Audio\Music\mus_overworld.ogg" />
+    <None Include="Content\Audio\Music\mus_overworld_hurry.ogg" />
+    <None Include="Content\Audio\Music\mus_stageclear.ogg" />
+    <None Include="Content\Audio\Music\mus_starman.ogg" />
+    <None Include="Content\Audio\Music\mus_underworld.ogg" />
+    <None Include="Content\Audio\Music\mus_underworld_hurry.ogg" />
+    <None Include="Content\Audio\Music\mus_warning.ogg" />
+    <None Include="Content\File.spritefont">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Entities\Background\BackgroundSprites.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Entities\ColliderData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Entities\Wario\WarioSprites.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Entities\Mario\MarioSprites.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Rendering\Sprites.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="WorldLoading\Levels\1-1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CodeReviews\Sprint2\CodeQuality\" />
+    <Folder Include="CodeReviews\Sprint2\Readability\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

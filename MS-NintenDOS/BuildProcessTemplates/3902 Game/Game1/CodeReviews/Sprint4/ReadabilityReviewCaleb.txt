@@ -1,0 +1,22 @@
+﻿Author:		Caleb George
+Date:		2.20.2019
+Sprint:		3
+FileName:	Entities/ObjectPhysicsEngine.cs
+FileAuthor:	Leo Steinkerchner
+ReviewTime:	10
+
+The file is cohesive.  The functions ApplyForce(), Hit(), Bounce(), and SetVelocity(), give a clear
+interaction for physics.  Hit() and Bounce() are useful abstractions for interacting with physics,
+but the name Hit isn't intuitive until you dig into the code.  It might be better to name it
+HitAndStop() or HitSideAndStop().
+
+In Bounce, it might be easier to read if you removed the brackets for the if statements in the switch
+case.  Every nested level adds a little bit to the cognitive load it takes to digest a block of code
+so reducing them where possible is helpful.
+
+In Update() It would make sense to add all the forces together, so moving velocity to right before
+the damping force calculation.  
+
+The magic numbers could be more readable by putting them in a variable and giving them a descriptive name.
+I'm not really sure why the numbers are the way they are, except for the "velocity.X *= -1" lines.  Because
+it's negating the direction, it would be obfuscated if you gave it a name.

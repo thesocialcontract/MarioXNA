@@ -1,0 +1,108 @@
+[
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 9,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "QuestionBlock",
+    "WorldPosXBlock": 10,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "PowerUp",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 11,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 12,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 13,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false,
+    "BlockContent": {
+      "ContentType": "Starman",
+      "NumItems": 1,
+      "TimeToGetItems": 0
+    }
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 14,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 10,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "BrickBlock",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 19,
+    "WorldPosYBlock": 10,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 2
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 0,
+    "BlockLength": 15
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 22,
+    "WorldPosYBlock": 0,
+    "BlockLength": 2
+  }
+]

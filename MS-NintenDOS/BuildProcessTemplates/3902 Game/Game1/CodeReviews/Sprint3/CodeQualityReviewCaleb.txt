@@ -1,0 +1,14 @@
+﻿Author:			Caleb George
+Date:			February 25th, 2019
+SprintNumber:	3
+File Reviewed:	MouseController.cs
+File Author:	Johnny Albaugh
+
+- CommandFields are ICommands is good.  MouseCommands taking MainGame as parameters 
+- Update loop is sensible.  Doesn't rely on more than mario (which the controller needs to know
+about because it's controlling mario.)  Expanding to allow the mouse to control a menu would require
+making a new MenuMouseController.  Since a MenuMouseController would require new commands anyway, a
+second MouseController file isn't a high cost.
+- MouseControlToggle should be renamed to IsMouseEnabled (makes a more readable boolean flag).
+- Commented function should be removed.
+- Indentation and blank lines affect readability.

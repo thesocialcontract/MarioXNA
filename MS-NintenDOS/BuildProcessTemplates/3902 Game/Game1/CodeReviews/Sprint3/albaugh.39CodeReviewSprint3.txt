@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: February 20th, 2019
+Sprint 3
+CollisionDetector.cs
+By Leo Steinkerchner
+Time taken to read was 10 minutes
+Overall, the code is relatively easy to read line by line, and its definitely clear to see what each part of the code does. The names of methods and objects are descriptive enough. The if statements and methods are well separated so they can be seen as separate and so its easy to see what they're doing. The only thing I can see that was harder to read was the method at the end for checking collision sides, since two of the variables were decided based on a long line of code so its harder to see exactly how that works. The methods for adding entities to dynamic and stationary, and the methods for checking for collisions were very readable. 

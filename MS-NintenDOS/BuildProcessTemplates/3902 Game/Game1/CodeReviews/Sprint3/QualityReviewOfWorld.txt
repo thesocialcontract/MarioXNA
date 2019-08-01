@@ -1,0 +1,28 @@
+Author of Review: Leo Steinkerchner
+Date of Review: 2/25/2019
+Sprint #: 3
+Name of File: World.cs
+Author of File: Caleb George
+Time Taken: 10
+
+Cohesion: Communicational/Sequential (Good/Great)
+    All parts of the class are directly related to managing the space identified as the
+		world. The only reason I don't say this has perfect cohesion is that "managing the world"
+		is a very large task, and seems like it could be further broken down.
+
+
+Coupling: 16 Classes (Poor)
+    World relies on a lot of classes. Some could maybe be eliminated right away. For example,
+		changing IMario to Player maintains the exact functionality with one fewer dependency. Also,
+		You have a reference to WorldLoaderJson which does not appear to be used. You could
+		potentially eliminate this dependency entirely. Further, the class is tightly coupled to the
+		CollisionDetector. It might be good to find some way to remove this dependency.
+
+Length of methods: {1-7} (Good/Great)
+    All of the methods are short and singularly-purposed.
+
+Hypothetical Change: If we needed to store the state of the world and temporarily go to another one
+	(such as if Mario went underground but then came back aboveground at the same spot).
+	The easiest way might be to create a WorldState class, and a SaveState method in World that would
+	copy the GameEntities, Player, and FilePath to a SaveState, and a LoadState method that would
+	restore the saved state, all of which would be easy to do with those objects as properties, which they are.

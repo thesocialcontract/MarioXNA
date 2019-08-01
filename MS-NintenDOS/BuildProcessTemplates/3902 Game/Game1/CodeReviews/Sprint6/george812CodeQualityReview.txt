@@ -1,0 +1,28 @@
+﻿Author of Review: Caleb George
+Date of Review: 4/21/2019
+Sprint #: 6
+Name of File: CheatHandler.cs
+Author of File: Leo Steinkerchner
+Time Taken: 10 min
+
+Cohesion: (Excellent)
+    All code is relevant only to the operations required to detect and handle cheats.
+    Execution of cheats are passed to commands.  The only change I can think of to make the
+    code more cohesive is to define cheats elsewhere, but that affects readability since it
+    requires overhead to load cheats from somewhere.  The overhead isn't worth making for 
+    something so simple and I think would *decrease* cohesion.
+
+Coupling: (Good)
+    Only couples itself to command objects and the required world object.  A command factory
+    could reduce the coupling further.
+
+Length of methods: (Excellent)
+    Methods are short and to the point.  The only long method is the RegisterCheats method
+    which is just a sequecne of similar, but different operations.  I think in that sort of 
+    case, it's ok to have a long method because it doesn't affect readability, and editing
+    it is easy (Since finding a particular cheat is easy with CTRL-F).
+
+Hypothetical Change: 
+    If we wanted to add another cheat, like level loading, we would have to add additional
+    coupling.  We'd have to add to supply to the command object.  In order to reduce possible coupling, we can
+    add a command factory pattern that loads at the start of the game.

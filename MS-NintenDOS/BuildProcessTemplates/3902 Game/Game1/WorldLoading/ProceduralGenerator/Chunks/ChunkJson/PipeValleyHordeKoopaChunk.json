@@ -1,0 +1,63 @@
+[
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true,
+    "Facing": "Right"
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 11,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 15,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Koopa",
+    "WorldPosXBlock": 16,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 17,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "Goomba",
+    "WorldPosXBlock": 18,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": true
+  },
+  {
+    "EntityType": "StaticDownPipe",
+    "WorldPosXBlock": 22,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 24
+  }
+]

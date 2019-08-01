@@ -1,0 +1,7 @@
+Review by Johnny J. Albaugh
+Date: April 8th, 2019
+Sprint 5
+AudioManager.cs
+By Kaleb George
+Time taken to read was 10 minutes
+The code quality for this class is good. It has high cohesion since all of the methods are only focused on sounds, and most of the methods do just one thing. The longest parts of the code are merely the list of sounds and music that are loaded into dictionaries. The code's coupling is pretty loose, though it does need to reference two files including the audio manager and the Media player. So in effect, this class only deals with music and sounds, and so is just complex enough to do that. There isn't much added functionality that could occur, since the class is designed to only play sounds and music. Adding new sounds and music is as simple as adding values to each list. One type of functionality that you could possibly add would be special effects to the sounds, such as making them louder, softer, having an echo and more. Such functionality would need new methods, as each sound currently has its own method call. 

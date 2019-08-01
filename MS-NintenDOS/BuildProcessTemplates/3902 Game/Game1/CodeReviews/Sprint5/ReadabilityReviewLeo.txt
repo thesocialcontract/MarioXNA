@@ -1,0 +1,25 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 4/03/2019
+Sprint #: 5
+Name of File: SceneManager.cs
+Author of File: Shamik Raje
+Time Taken: 10 min
+
+Naming: Great
+- Before reading the code, the variable names are descriptive and already give
+	me an idea of what is happening.
+- Similarly, all of the method names are clear and concise.
+
+Explaining what is happening: Great
+- The logical flow of all of the methods is clear, and with the
+	strong variable names its obvious what is happening at each step.
+
+WhiteSpace:
+- I like the use of whitespace between categories of things (between properties
+	and members, members and methods, etc.)
+- You could condence the constructor, so it doesn't take up as much space
+
+Other:
+- You could potentially reorder the methods. In most of our classes, the last
+	two methods are Update and Draw, and it's a little bit easier to find them
+	if they're consistently at the bottom.

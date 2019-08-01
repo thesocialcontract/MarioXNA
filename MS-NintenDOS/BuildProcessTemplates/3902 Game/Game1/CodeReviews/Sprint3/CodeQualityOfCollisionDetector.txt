@@ -1,0 +1,16 @@
+﻿Author:			Shamik Raje
+Date:			February 25th, 2019
+Sprint Number:	3
+File Reviewed:	CollisionDetector.cs
+File Author:	Leo Steinkerchner
+
+Comments:
+	- The file only relies on the ICollider interface, each of the CollisionHandlers, and
+	the IGameEntity interface which makes the coupling low and is an effective way of 
+	organizing the file.
+	- The only problem I see is the fact that in the "GetCollisionHandler" method we are checking
+	the objects to see if they are one of the types of which we are checking collisions for. This
+	requires us to later down the line add more strings for the different kinds of objects that we
+	would want handle collisions. On way we can fix this is by loading in the different kinds of 
+	objects that we would want to handle collisions for in a file and putting the strings in a list
+	and then checking for the correct collision handler using the new collection of collider list.

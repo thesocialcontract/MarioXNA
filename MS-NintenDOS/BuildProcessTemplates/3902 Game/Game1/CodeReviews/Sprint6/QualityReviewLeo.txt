@@ -1,0 +1,33 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 4/21/2019
+Sprint #: 6
+Name of File: WorldGenerator.cs
+Author of File: Caleb George
+Time Taken: 20 min
+
+Cohesion: Good
+    The class handles a lot of functionality:
+		Load/Reload
+		Get a random set of chunks
+		Instantiate the chunks
+		Create a player
+		Create an end zone
+		Create a death zone
+		Create the background
+	However, all of these are related to the class's goal of "procedularly generate a level"
+	By extracting some more functionality you could potentially make it more cohesive.
+	The methods themselves are all pretty cohesive, tackling one specific task each.
+
+Coupling: 13 Classes (Moderate)
+    Most of the coupled classes are WorldGenerator's helper classes. The remaining are
+		things like WorldHelpers and IGameEntity that seem pretty important and inseparable.
+
+Length of methods: <= 14 (Good)
+    The longest method is AddBackground() which you have noted that ideally the
+		hard-coded points would be abstracted to greatly reduce the size of this method.
+	All of the other methods are of a great length.
+
+Hypothetical Change: If we wanted to introduce warp pipes/caves to the random levels,
+	there's not an easy way to do so. I imagine we might have a chunk that includes a warp pipe,
+	and in GenerateEntitiesFromPipe it would check for a warp pipe, and if it finds one,
+	create a cave. Then, you would have to add entirely new funcitonality for Adding a cave.

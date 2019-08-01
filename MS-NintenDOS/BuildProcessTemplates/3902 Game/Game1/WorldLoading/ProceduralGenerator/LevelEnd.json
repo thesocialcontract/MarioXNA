@@ -1,0 +1,298 @@
+[
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 1,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 1,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 2,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 2,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 2,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 3,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 4,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 5,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 6,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 7,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 2,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 3,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 4,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 6,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 7,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosXBlock": 8,
+    "WorldPosYBlock": 8,
+    "HasDynamicCollider": false
+  },
+
+
+  {
+    "EntityType": "Flagpole",
+    "WorldPosX": 528,
+    "WorldPosYBlock": 9,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "RampBlock",
+    "WorldPosX": 544,
+    "WorldPosYBlock": 1,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "SmallCastle",
+    "WorldPosXBlock": 21,
+    "WorldPosYBlock": 5,
+    "HasDynamicCollider": false
+  },
+  {
+    "EntityType": "WinZone",
+    "WorldPosXBlock": 23,
+    "WorldPosYBlock": 1,
+    "BlockLength": 6
+  },
+  {
+    "EntityType": "Floor",
+    "WorldPosXBlock": 0,
+    "WorldPosYBlock": 0,
+    "BlockLength": 42
+  }
+]

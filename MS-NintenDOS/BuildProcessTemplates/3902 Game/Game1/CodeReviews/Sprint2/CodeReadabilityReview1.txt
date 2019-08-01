@@ -1,0 +1,13 @@
+﻿Author:			Caleb George
+Date:			2.5.2019
+Sprint:			2
+Time to Review:	5 minutes
+File Reviewed:	Renderer/TextureList.cs
+File Author:	Leo Steinkerchner
+
+Comments:		
+	Code is easy to follow.  Method and variable names are clear.
+	In LoadAllTextures, it might make it easier to read if there
+	were an empty line inbetween each loaded texture.  That said
+	it might make it way more padded than it needs to be, and
+	it's more than readable as is.

@@ -1,0 +1,45 @@
+﻿Author:		Caleb George
+Date:		4.3.2019
+Sprint:		5
+FileName:	Scenes/TransitionScenes.cs
+FileAuthor:	Shamik Raje
+ReviewTime:	20
+
+Use of whitespace in readability:
+    Seperating Properties from instance variables and instance variables from functions make
+    code easier to digest.  You make 3 distinct sections to consider.  (1) Likely public facing
+    code, (2) Likely instance variables for internal work, and (3) the meat of the class.
+
+    e.g.
+        public int PosX { get; set; }
+        public int PosY { get; set; }
+
+        private int force = 0;
+
+        public constructor() { }
+
+    Move NextLevel to right after line 19, and add a blank line after Timer on line 20 (and lowercase
+    Timer).
+
+    For one line if statements, the extra whitespace adds to the cognitive load to parse statements.
+    In Update, remove the brackets for the timer check.
+
+This:
+    Using 'this' only helps readability when it's explicitly needed.  Otherwise it's clutter.
+    "this.Game = game;" isn't as quick to parse as "Game = game"
+
+Dependency Chains:
+    Throughout the file you have things like "Game.PlayersHud.SomeFunction()".  That long chain of dependencies
+    make it really difficult to see what's actually going on, and adds complexity to any step along that dependency
+    chain.  It's hard to parse and makes your code coupled.  You want a scene to have a particular job, but it needs 
+    to be able to access the internals of other objects to do its job.  Ideally you'd want to provide some sort of
+    way for you to ask the object to do what you want, but since Game is so broad, it'd be ridiculous to give Game
+    that sort of functionality.  Of course, this might come with the territory of being a handler for something
+    so close to the low level game features.
+
+Final thoughts:
+    The biggest sin is the dependency chains, so a better architecture might be beneficial here.
+    Of course, I also committed the same sort of sin in the new WorldState classes to save on time,
+    so I understand not being super clean for an initial implementation.
+
+    We need to take our time over the whole sprint instead of developing the last few days.

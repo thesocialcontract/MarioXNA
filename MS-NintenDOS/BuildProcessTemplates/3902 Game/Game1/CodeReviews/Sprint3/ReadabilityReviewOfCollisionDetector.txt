@@ -1,0 +1,20 @@
+﻿Author of Review: Shamik Raje
+Date of Review: 2/20/2019
+Sprint #: 3
+Name of File: CollisionDetector.cs
+Author of File: Leo Steinkerchner
+Time Taken: 15 min
+
+Naming: Decent
+	- The class properties do not follow our convention and should be in PascalCase instead of CamelCase
+	- At first glance, I think a reader would confused by the name "handlerList". I think that they would
+	be confused about what exactly are the handlers handling. In order to make it more descriptive, maybe 
+	changing the name to CollisionHandlerList would work.
+	- Same thing with the method names. Names like "SetColliderList" and "InitializeHandlerList" do similar
+	things and yet have different naming schemes (It would probably be better for them to both be "Initialize"
+	rather than "Set").
+	
+Explaing what is being good: Decent
+	- For a class of this length/complexity it might be best to add some comments. While everything makes sense
+	to me, I believe another person would have trouble figuring out what exactly is being done, especially in the
+	update method.

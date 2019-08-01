@@ -1,0 +1,12 @@
+Author: Johnny J. Albaugh
+Date: February 11th, 2019
+Sprint Number: 2
+CS File Being Reviewed: QuestionBlockState.cs
+Author of CS File: Leo Steinkernchner
+
+Code Quality
+The cohesion for this class is good since it is high. The only method doing more than 1 thing is the constructor, because it is initializing the object entirely. Coupling is somewhat tight within the constructor, since there is one name.name.name statement within a method. Chosen names are good, since they do well to describe what each object is and what its doing. The coupling is kept loose using an interface for sprite and a generic stationary sprite class. 
+Overall, the code has good quality. 
+
+Hypothetical Change
+A change we could make to the game related to this class would be making it so different areas of the game might have different looking question-mark blocks. You would only have to change the specific sprite sheet loaded from the texturelist, and perhaps add a simple boolean or number field to indicate which one to load. 

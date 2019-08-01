@@ -1,0 +1,201 @@
+{
+  "Block": {
+    "Height": 16,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 14,
+    "XOffset": 1,
+    "YOffset": 0
+  },
+
+  "SmallMario": {
+    "Height": 19,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 12,
+    "XOffset": 4,
+    "YOffset": 17
+  },
+
+  "DeadMario": {
+    "Height": 14,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 15,
+    "XOffset": 3,
+    "YOffset": 18
+  },
+
+  "BigMario": {
+    "Height": 35,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 12,
+    "XOffset": 4,
+    "YOffset": 1
+  },
+
+  "FireMario": {
+    "Height": 35,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 12,
+    "XOffset": 4,
+    "YOffset": 0
+  },
+
+  "DownPipe": {
+    "Height": 252,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 32,
+    "XOffset": 4,
+    "YOffset": 3
+  },
+
+  "OneUpMushroom": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 0,
+    "YOffset": 0
+  },
+
+  "PowerUpMushroom": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 0,
+    "YOffset": 0
+  },
+
+  "FireFlower": {
+    "Height": 16,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 0,
+    "YOffset": 0
+  },
+
+  "Coin": {
+    "Height": 13,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 10,
+    "XOffset": 0,
+    "YOffset": 3
+  },
+
+  "Starman": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 13,
+    "XOffset": 3,
+    "YOffset": 2
+  },
+
+  "Fireball": {
+    "Height": 8,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 8,
+    "XOffset": 6,
+    "YOffset": 6
+  },
+
+  "TurningKoopa": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 14,
+    "XOffset": 3,
+    "YOffset": 10
+  },
+
+  "WalkingKoopa": {
+    "Height": 23,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 2,
+    "YOffset": 3
+  },
+
+  "KoopaShell": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 14,
+    "XOffset": 3,
+    "YOffset": 10
+  },
+
+  "Goomba": {
+    "Height": 16,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 2,
+    "YOffset": 4
+  },
+  "Floor": {
+    "Height": 16,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 0,
+    "YOffset": 0
+  },
+  "Wall": {
+    "Height": 16,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 16,
+    "XOffset": 0,
+    "YOffset": 0
+  },
+  "Flagpole": {
+    "Height": 152,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 4,
+    "XOffset": 15,
+    "YOffset": 0
+  },
+  "Pole": {
+    "Height": 168,
+    "IsDynamic": false,
+    "Scale": 2,
+    "Width": 10,
+    "XOffset": 1,
+    "YOffset": 1
+  },
+  "SmallWario": {
+    "Height": 20,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 19,
+    "XOffset": 4,
+    "YOffset": 16
+  },
+  "BigWario": {
+    "Height": 31,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 23,
+    "XOffset": 4,
+    "YOffset": 5
+  },
+  "CrouchWario": {
+    "Height": 22,
+    "IsDynamic": true,
+    "Scale": 2,
+    "Width": 23,
+    "XOffset": 4,
+    "YOffset": 14
+  }
+}

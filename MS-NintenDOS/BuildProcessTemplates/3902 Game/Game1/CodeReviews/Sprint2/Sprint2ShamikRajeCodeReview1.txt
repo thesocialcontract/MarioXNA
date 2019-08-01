@@ -1,0 +1,10 @@
+﻿Shamik Raje
+6 February 2019
+Sprint 2
+RightCrouchingBigMarioState.cs
+Caleb Gerorge
+13
+The code is pretty easy to read. Most of the methods are only one line,
+and the variable, class, and method names are straighforward and easy
+to understand. THe only thing I can think of is to make the texture
+initialization logic be its own function.

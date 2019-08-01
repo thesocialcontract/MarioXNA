@@ -1,0 +1,57 @@
+﻿Review Author: Caleb George
+Date:       4.03.2019
+Sprint:		6
+FileName:	CheatHandler.cs
+FileAuthor:	Leo Steinkerchner
+ReviewTime:	10
+
+
+Naming: Great
+- Function names imply their exact beahvior except for Enter(string key).
+- Enter(string key) could imply pressing a 'submit' key.  I would rename it
+    to PressKey(string key).
+
+Explaining what is happening: Great
+- The logical flow of all of the methods is clear, and with the
+	strong variable names its obvious what is happening at each step.
+
+WhiteSpace:
+- Whitespace is consistent.  Good conceptual spacing between concerns.
+
+Other:
+- Bookmark Comments are controversial since you have to maintain your comments
+    as well as code, but they're easier to sort through summaries than it is to
+    read code.  The "// Cheat # - Cheat Description" comments are nice bookmarks
+    but the Cheat - # part aren't really necessary.  It's arguable for 2 line
+    operations the comments might not be necessary, but I think they're still
+    way easier to parse than finding the specific command.
+- Braces for one line ifs are controversial.  I think for one liners,
+    leaving braces off reduces cognitive load when looking at code flow.
+   
+   For example:
+
+       public Braces() 
+       {
+            if (NeedsChecked) 
+            {
+                DoThing();
+            }
+            else 
+            {
+                DoOtherThing();
+            }
+       }
+
+   Compared to:
+    
+        public NoBraces()
+        {
+            if (NeedsChecked)
+                DoThing();
+            else
+                DoOtherThing();
+        }
+
+   It takes a little bit of extra time to parse what's actually in the braces.
+   Since One-liners like that are conceptually similar, it's easier to understand
+   the conceptual block when the lines are spatially similar.

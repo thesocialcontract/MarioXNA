@@ -1,0 +1,13 @@
+Reviewed by: Leo Steinkerchner
+Date: 2/6/2019
+Sprint 2
+KeyboardController.cs
+Written by: Johnny Albaugh
+Time taken for review: ~2 minutes
+
+Variable and Method names are all concise yet descriptive.
+Logical flow is good, everything makes sense without comments.
+If CommandList needs to be public, it should be a property, with getters and setters.
+    If not, it should be private and changed to commandList.
+There is inconsistent spacing (Constructor has leading and trailing lines, where
+    RegisterCommand only has a leading line)

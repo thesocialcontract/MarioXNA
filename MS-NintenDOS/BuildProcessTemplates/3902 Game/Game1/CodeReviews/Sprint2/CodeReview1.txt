@@ -1,0 +1,38 @@
+﻿Author:			Caleb George
+Date:			2.11.2019
+Sprint:			2
+File Reviewed:	Input/Controllers/KeyboardController.cs
+File Author:	Johnny Albaugh
+
+Comments:		
+	Cohesion:
+		- The KeyboardController is cohesive.  All it should care about is to execute a
+		command when a given key is pressed, which is all that it does.
+		
+		- No option to remove a command after it's registered.  Pressing a button in a
+		menu should not have the same result as pressing a button in game.  Adding
+		wouldn't take much (a function that removes from the hashset).
+
+	Coupling:
+		- Its coupling is loose.  Commands are used as interfaces, giving flexibility,
+		and the RegisterCommand function gives flexibility for what commands the keyboard
+		will run.  I can't find a way to make it looser.  Everything concrete is to
+		used to implement the controller interface specificly for a keyboard and
+		can be dropped in for any controller.
+
+
+	Style:
+		- There is inconsistent whitespace in each function.  KeyboardController() has padding
+		on the top and bottom of the function body, and RegisterCommand has padding on top.
+		Neither use the abnormal whitespace to improve the readability, and makes it 
+		inconsistent with the rest.
+		
+		- IsNotPressed should be rewritten to be IsKeyPressed.  Use the language's ! operator to
+		negate the boolean name.  (e.g. While it wouldn't matter in this case, if you 
+		wanted to check if a button was pressed, you would call !IsNotPressed().  The
+		double negation would be confusing)
+
+		- In Update(), predicateFunc should be renamed to something more explanatory as it's
+		currently named to explain the language features instead of what you're trying to
+		do.  I would change IsNotPressed() to IsKeyPressed() and predicateFunc = IsNotPressed
+		to Predicate<Keys> IsPressed = IsKeyPressed

@@ -1,0 +1,3 @@
+﻿We had better pacing this time than we did before.
+We're right at the edge of the deadline, so clearly we could have done beter.
+Azure boards are useful!

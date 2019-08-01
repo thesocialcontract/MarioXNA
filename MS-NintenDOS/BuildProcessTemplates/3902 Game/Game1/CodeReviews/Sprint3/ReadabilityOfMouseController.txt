@@ -1,0 +1,18 @@
+﻿Author of Review: Leo Steinkerchner
+Date of Review: 2/20/2019
+Sprint #: 3
+Name of File: MouseController.cs
+Author of File: Johnny Albaugh
+Time Taken: 10 min
+
+Naming: Decent
+- Command variable names are good (MouseUpCommand, etc.)
+- ToggleOnOrOff could potentially be shortened to ToggleOnOff without hurting legibility
+- "MouseContollerToggle" variable does not descrie which state is which. Maybe change it to like MouseIsOn.
+
+Explaining what is happening: Good
+- Logical flow makes sense, its easy to see what is happening
+	throughout update and draw.
+
+WhiteSpace:
+- Make whitespace consistent (different members have a different number of empty lines before and after)
